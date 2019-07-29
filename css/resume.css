@@ -1,3 +1,12 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
@@ -7,7 +16,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+
   }
 }
 
